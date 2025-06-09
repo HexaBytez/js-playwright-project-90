@@ -5,8 +5,7 @@ const baseURL = 'http://localhost:5173';
 export default class LoginPage {
   [x: string]: any;
   readonly page: Page;
-  readonly inputUsername;
-
+  
   constructor(page: Page) {
     this.page = page;
     this.inputUsername = page.locator('input[name="username"]');
