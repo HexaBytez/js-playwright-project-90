@@ -1,0 +1,1 @@
+declare module '@hexlet/testing-task-manager';
